@@ -5,6 +5,7 @@
 
 #define MAX_MOVIES 1000
 #define LINE_BUF 1024
+
 typedef struct {
     int id;
     char title[256];
@@ -270,4 +271,5 @@ int main() {
         }
     }
 }
+
 
